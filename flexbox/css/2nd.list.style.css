@@ -1,0 +1,211 @@
+.header {
+  height: 120px;
+  background-color: rgb(255, 255, 255);
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.logo-menu {
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #545454;
+  padding: 0px 15px;
+  font-weight: 400;
+}
+.nav-link:hover {
+  text-decoration: underline;
+  color: #f1dcb3;
+}
+.logo {
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+.logo-title {
+  font-size: 30px;
+  margin: 0;
+  color: #545454;
+}
+.logo-under {
+  font-size: 15px;
+  left: 0;
+  color: #292929;
+}
+.block-1 {
+  height: 1100px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.topic {
+  text-align: center;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-weight: 400;
+  font-size: 40px;
+}
+.pets-8 {
+  height: 800px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: flex-start;
+}
+.pet h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.pet {
+  height: 400px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.button-pet {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 5px 10px;
+  font-size: 17px;
+  border-color: #f1cdb3;
+  border-radius: 100px;
+}
+
+.button-end {
+  height: 100px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: center;
+}
+.menu-buttons {
+  background-color: #f1cdb3;
+  border-color: #545454;
+  border-radius: 100px;
+  font-size: 20px;
+  padding: 10px 15px;
+  margin: 5px;
+}
+.footer {
+  height: 350px;
+  background: url(/html-css/flexbox/img/footer-gradient-background.png);
+  display: flex;
+  flex-flow: row nowrap;
+}
+.footer-end {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.end-1 {
+  width: 270px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.end-1-title {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+.end-1-title h2 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+}
+.end-1-email {
+  height: 60px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.end-1-phone {
+  height: 60px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+.end-2 {
+  width: 270px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  align-items: center;
+  color: #ffffff;
+}
+.end-2-title h2 {
+  font-size: 35px;
+  font-weight: 400;
+  color: #fff;
+}
+.end-2-adress {
+  height: 60px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.end-2-town {
+  height: 60px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+.footer-puppy {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.email-text{
+  margin: 0 10px;
+}
+.phone-text{
+  margin: 0 10px;
+}
+.town-text{
+  margin: 0 10px;
+}
+.adress-text{
+  margin: 0 10px;
+}
+.button-pet:hover{
+  background-color: rgba(223, 218, 218, 0.863);
+  border-radius: #a1a0a0;
+}
+.menu-buttons:hover{
+  color: rgb(100, 190, 226);
+  border-color: rgb(108, 203, 240);
+  background-color: #e7c4ab;
+}
